@@ -1,0 +1,15 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "."
+		}
+	],
+	 "build_system": [
+        {
+            "name": "server",
+            "shell_cmd": "supervisor -e 'html|js' node server.js"
+        }
+    ]
+}
